@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "name": "Cloudfront Only 01",
+      "country": "SG",
+      "host": "dokg641txlmgl.cloudfront.net",
+      "ssh_port": 22,
+      "ssl_port": 443,
+      "slowdns_host": "",
+      "slowdns_key": "",
+      "payload": "Use Any Cloudfront Payload",
+      "flag": "sg"
+    },
+    {
+      "name": "Australia 01",
+      "country": "AU",
+      "host": "something.au.server",
+      "ssh_port": 22,
+      "ssl_port": 443,
+      "slowdns_host": "ns.example.com",
+      "slowdns_key": "12345",
+      "payload": "SSH | SSL | SLOWDNS",
+      "flag": "au"
+    }
+  ]
+}
