@@ -1,3 +1,4 @@
+
 {
   "Servers": [
     {
@@ -6,11 +7,6 @@
       "ServerIP": "example.com",
       "ServerPort": 22,
       "SSLPort": 443,
-      "ProxyPort": 8080,
-      "ProxyIP": "",
-      "CloudfrontIP": "",
-      "ServerUser": "",
-      "ServerPass": "",
       "sInfo": "test",
       "SlowDnskey": "",
       "SlowDnshost": ""
