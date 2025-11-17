@@ -1,26 +1,51 @@
 {
-  "servers": [
+  "Servers": [
     {
-      "name": "Cloudfront Only 01",
-      "country": "SG",
-      "host": "dokg641txlmgl.cloudfront.net",
-      "ssh_port": 22,
-      "ssl_port": 443,
-      "slowdns_host": "",
-      "slowdns_key": "",
-      "payload": "Use Any Cloudfront Payload",
-      "flag": "sg"
+      "Name": "Cloudfront Only 01",
+      "FLAG": "sg",
+      "ServerIP": "dokg641txlmgl.cloudfront.net",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "CloudfrontIP": "dokg641txlmgl.cloudfront.net",
+      "ServerUser": "",
+      "ServerPass": "",
+      "sInfo": "Use Any Cloudfront Payload",
+      "SlowDnskey": "",
+      "SlowDnshost": ""
     },
     {
-      "name": "Australia 01",
-      "country": "AU",
-      "host": "something.au.server",
-      "ssh_port": 22,
-      "ssl_port": 443,
-      "slowdns_host": "ns.example.com",
-      "slowdns_key": "12345",
-      "payload": "SSH | SSL | SLOWDNS",
-      "flag": "au"
+      "Name": "Australia 01",
+      "FLAG": "au",
+      "ServerIP": "something.au.server",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "CloudfrontIP": "",
+      "ServerUser": "",
+      "ServerPass": "",
+      "sInfo": "SSH | SSL | SLOWDNS",
+      "SlowDnskey": "12345",
+      "SlowDnshost": "ns.example.com"
+    }
+  ],
+
+  "Networks": [
+    {
+      "Name": "Sample Payload",
+      "Payload": "GET example",
+      "SNI": "",
+      "pInfo": "Sample",
+      "dnsKey": "",
+      "CustomProxy": "",
+      "CustomProxyPort": "",
+      "isSSL": false,
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isCf": true,
+      "isCustom": false
     }
   ]
 }
