@@ -4,12 +4,13 @@
       "Name": "Test Server",
       "FLAG": "ph",
       "ServerIP": "example.com",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "ProxyPort": "8080",
+      "ServerPort": 22,
+      "SSLPort": 443,
+      "ProxyPort": 8080,
       "sInfo": "test",
       "SlowDnskey": "",
       "SlowDnshost": ""
     }
   ]
 }
+
