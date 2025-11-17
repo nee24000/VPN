@@ -1,17 +1,26 @@
-
 {
   "Servers": [
     {
-      "Name": "Test Server",
-      "FLAG": "ph",
-      "ServerIP": "example.com",
-      "ServerPort": 22,
-      "SSLPort": 443,
-      "sInfo": "test",
-      "SlowDnskey": "",
-      "SlowDnshost": ""
+      "Name": "CAT-01(Open,Ssh)",
+      "Info": "",
+      "FLAG": "th",
+      "ServerIP": "tmvh.co.cat1.sathu1.online",
+      "TCPPort": "1194",
+      "SSHPort": "143",
+      "SSLPort": "443",
+      "NameServer": "",
+      "PublicKey": "",
+      "ServerDNS": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "AutoLogIn": "true",
+      "Username": "vpnsathu",
+      "Password": "vpnsathu",
+      "MultiCert": "true",
+      "OvpnCertificate": "client\ndev tun\nproto tcp\nsndbuf 0\nrcvbuf 0\nresolv-retry 5\nnobind\npersist-key\npersist-tun\nremote-cert-tls server\ncipher AES-256-CBC\ncomp-lzo yes\nsetenv opt block-outside-dns\nkey-direction 1\nverb 3\nauth-user-pass\nkeepalive 10 120\nfloat\n<ca>-----BEGIN CERTIFICATE-----\nMIIEzzCCA7egAwIBAgIJANKFZRXMc7qdMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYD\nVQQGEwJUSDELMAkGA1UECBMCTksxEjAQBgNVBAcTCUlPRlZQTi1DQTESMBAGA1UE\nChMJSU9GVlBOLUNBMQ0wCwYDVQQLEwRIT01FMRUwEwYDVQQDEwxJT0ZWUE4tQ0Eg\nQ0ExDzANBgNVBCkTBklPRlZQTjEkMCIGCSqGSIb3DQEJARYVYWtrYXJhbml0LjlA\nZ21haWwuY29tMCAXDTIyMTEwNDE4MzgyOVoYDzMwMjIwMzA3MTgzODI5WjCBnzEL\nMAkGA1UEBhMCVEgxCzAJBgNVBAgTAk5LMRIwEAYDVQQHEwlJT0ZWUE4tQ0ExEjAQ\nBgNVBAoTCUlPRlZQTi1DQTENMAsGA1UECxMESE9NRTEVMBMGA1UEAxMMSU9GVlBO\nLUNBIENBMQ8wDQYDVQQpEwZJT0ZWUE4xJDAiBgkqhkiG9w0BCQEWFWFra2FyYW5p\ndC45QGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhY\nbt7rcdBnMX4JM77XnssKrygBNBrR/tcQV2bgewZ0tiOyQrWaPCL3jWAqaIKlbA+m\nIjhgjePYnwADM5rAFxXQu6uX+Z3aXNMcHOj4qSLS9UTAbNAI/K1jSOAFV1ZamTzC\nWexgauOEHoJqjUzqcgTzgYsmsfb82DOs6tTFJlAg49bZ5hqyAZrgoIuIVXkMYcNl\nqDLAVfH0PDsHNxOA2kRc/YNgMLqYchFEDx2WuPbX0bSpTD1hM0NH0SHiUyGPUT/P\nrESAFKgUro3IPwLWO4FkC5NcDpS8/j1tJk5GJDfMXjFtIPjhWsTIHBBv+8TmP9Gu\n83vr19oDod0TtwfWD+MCAwEAAaOCAQgwggEEMB0GA1UdDgQWBBS685XSYeFjmZab\nbn1TufzbWy0S4DCB1AYDVR0jBIHMMIHJgBS685XSYeFjmZabbn1TufzbWy0S4KGB\npaSBojCBnzELMAkGA1UEBhMCVEgxCzAJBgNVBAgTAk5LMRIwEAYDVQQHEwlJT0ZW\nUE4tQ0ExEjAQBgNVBAoTCUlPRlZQTi1DQTENMAsGA1UECxMESE9NRTEVMBMGA1UE\nAxMMSU9GVlBOLUNBIENBMQ8wDQYDVQQpEwZJT0ZWUE4xJDAiBgkqhkiG9w0BCQEW\nFWFra2FyYW5pdC45QGdtYWlsLmNvbYIJANKFZRXMc7qdMAwGA1UdEwQFMAMBAf8w\nDQYJKoZIhvcNAQELBQADggEBABVr+hcTBiHe1Ttgzf+wVijSuIYVaPj8uvIeQbZX\n8598B9ehGWYw3OJaaGXjA2jzUlDDrySXiqANX1EYI87tUhbnoxytH8t6kIJiVFAF\nx0qoV2oNnWkvTPd6nggnuqNkAZyep13ugvn4tzn9uwP5xZJ4egHvriAqZUXZa/Z7\natj2HkDzh3e9X09KQtfAeSTvJ+W58KHumdSecpXBHm4o+uo0R0L5vCGqgEqGqeMX\n9l2IQMLP9nfTCRlPiNobly+6ikebNqA1spLZOIzrZLABin+5HIAZqQ7W0pn44I1l\nUA1uJa/KhwyEXOA7hWqL8gaKqIkIKcXZq2bS8YqZBS3wZ7c=\n-----END CERTIFICATE-----</ca>"
     }
   ]
 }
+
 
 
