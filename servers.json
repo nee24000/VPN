@@ -1,51 +1,15 @@
 {
-  "Servers": [
+  "servers": [
     {
-      "Name": "Cloudfront Only 01",
-      "FLAG": "sg",
-      "ServerIP": "dokg641txlmgl.cloudfront.net",
+      "Name": "Test Server",
+      "FLAG": "ph",
+      "ServerIP": "example.com",
       "ServerPort": "22",
       "SSLPort": "443",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "CloudfrontIP": "dokg641txlmgl.cloudfront.net",
-      "ServerUser": "",
-      "ServerPass": "",
-      "sInfo": "Use Any Cloudfront Payload",
+      "ProxyPort": "8080",
+      "sInfo": "test",
       "SlowDnskey": "",
       "SlowDnshost": ""
-    },
-    {
-      "Name": "Australia 01",
-      "FLAG": "au",
-      "ServerIP": "something.au.server",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "CloudfrontIP": "",
-      "ServerUser": "",
-      "ServerPass": "",
-      "sInfo": "SSH | SSL | SLOWDNS",
-      "SlowDnskey": "12345",
-      "SlowDnshost": "ns.example.com"
-    }
-  ],
-
-  "Networks": [
-    {
-      "Name": "Sample Payload",
-      "Payload": "GET example",
-      "SNI": "",
-      "pInfo": "Sample",
-      "dnsKey": "",
-      "CustomProxy": "",
-      "CustomProxyPort": "",
-      "isSSL": false,
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isCf": true,
-      "isCustom": false
     }
   ]
 }
