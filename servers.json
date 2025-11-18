@@ -1,9 +1,9 @@
 {
   "Version": "1.0",
   "Addtime": true,
-  "ReleaseNotes": "Initial online config for Zennet VPN",
+  "ReleaseNotes": "Online config loaded.",
   "AnnounceMent": "Welcome to Zennet VPN!",
-  
+
   "Servers": [
     {
       "Name": "CAT-01(Open,Ssh)",
