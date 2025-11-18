@@ -1,8 +1,8 @@
 {
   "Version": "1.0",
   "Addtime": true,
-  "ReleaseNotes": "Online config loaded.",
-  "AnnounceMent": "Welcome to Zennet VPN!",
+  "ReleaseNotes": "Config loaded",
+  "AnnounceMent": "Welcome!",
 
   "Servers": [
     {
@@ -31,7 +31,7 @@
       "Name": "Default Payload",
       "pInfo": "Standard SSH Payload",
       "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
-      
+
       "CustomProxy": "",
       "CustomProxyPort": "80",
       "isCustom": false,
