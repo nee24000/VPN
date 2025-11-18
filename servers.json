@@ -10,13 +10,17 @@
       "ServerIP": "tmvh.co.cat1.sathu1.online",
       "ServerPort": "143",
       "SSLPort": "443",
-      "ProxyIP": "",
+
+      "ProxyIP": "tmvh.co.cat1.sathu1.online",
       "ProxyPort": "80",
+
       "ServerUser": "vpnsathu",
       "ServerPass": "vpnsathu",
+
       "SlowDnskey": "",
       "SlowDnshost": "",
       "CloudfrontIP": "",
+
       "SNI": "",
       "Payload": "CONNECT [host_port] [protocol][crlf][crlf]"
     }
@@ -27,13 +31,16 @@
       "Name": "Default Payload",
       "pInfo": "Standard SSH Payload",
       "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
+      
       "CustomProxy": "",
-      "CustomProxyPort": "",
+      "CustomProxyPort": "80",
       "isCustom": false,
+
       "isSSL": false,
       "isSslPayRp": false,
       "SlowDns": false,
       "isCf": false,
+
       "dnsKey": "",
       "SNI": ""
     }
