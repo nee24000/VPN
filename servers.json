@@ -6,33 +6,34 @@
 
   "Servers": [
     {
-  "Name": "CAT-01(Open,Ssh)",
-  "FLAG": "th",
-  "sInfo": "Zennet Server",
-  "ServerIP": "tmvh.co.cat1.sathu1.online",
-  "ServerPort": "143",
-  "SSLPort": "443",
+      "Name": "CAT-01(Open,Ssh)",
+      "FLAG": "th",
+      "sInfo": "Zennet Server",
 
-  "ProxyIP": "tmvh.co.cat1.sathu1.online",
-  "ProxyPort": "80",
+      "ServerIP": "tmvh.co.cat1.sathu1.online",
+      "ServerPort": "143",
+      "SSLPort": "443",
 
-  "ServerUser": "vpnsathu",
-  "ServerPass": "vpnsathu",
+      "ProxyIP": "tmvh.co.cat1.sathu1.online",
+      "ProxyPort": "80",
 
-  "SlowDnskey": "",
-  "SlowDnshost": "",
-  "CloudfrontIP": "",
+      "ServerUser": "vpnsathu",
+      "ServerPass": "vpnsathu",
 
-  "SNI": "",
-  "Payload": "CONNECT [host_port] [protocol][crlf][crlf]"
-}
+      "SlowDnskey": "",
+      "SlowDnshost": "",
+      "CloudfrontIP": "",
 
+      "SNI": "",
+      "Payload": "CONNECT [host_port] [protocol][crlf][crlf]"
+    }
   ],
 
   "Networks": [
     {
       "Name": "Default Payload",
       "pInfo": "Standard SSH Payload",
+
       "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
 
       "CustomProxy": "",
