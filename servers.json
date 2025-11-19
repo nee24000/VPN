@@ -9,7 +9,6 @@
       "Name": "CAT-01(Open,Ssh)",
       "FLAG": "th",
       "sInfo": "Zennet Server",
-
       "ServerIP": "tmvh.co.cat1.sathu1.online",
       "ServerPort": "143",
       "SSLPort": "443",
@@ -33,7 +32,6 @@
     {
       "Name": "Default Payload",
       "pInfo": "Standard SSH Payload",
-
       "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
 
       "CustomProxy": "",
