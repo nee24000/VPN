@@ -1,5 +1,5 @@
 {
-  "Version": "2.1",
+  "Version": "2.2",
   "ReleaseNotes": "This application is a configmaker for OpenVpn3 build by Harshana Devz (Telegram @Zenze000)...",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -46,8 +46,8 @@
       "ServerUser": "ssh-user-1",
       "ServerPass": "WrLze-66r?DR#b-ReZ97e6$E#We3O99A",
       "CloudfrontIP": "",
-      "SlowDnshost": "dns.au5dbc.dckx.fun",
-      "SlowDnskey": "99242c9fe50d6e08e95bbf30e4bd11e648e283ba8d05610bb64e3176adfc0555",
+      "SlowDnshost": "ns.ws.misterpnut.uk",
+      "SlowDnskey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
       "sInfo": "SSH | SSL | SLOWDNS"
     }
   ],
@@ -64,7 +64,8 @@
       "SlowDns": false,
       "isSSL": true,
       "isCustom": true,
-      "isCf": false
+      "isCf": false,
+      "logo": "true"
     },
     {
       "Name": "AIS",
@@ -78,7 +79,8 @@
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
-      "isCf": false
+      "isCf": false,
+      "logo": "ais"
     },
     {
       "Name": "TRUE FB Gaming",
@@ -92,24 +94,26 @@
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
-      "isCf": false
+      "isCf": false,
+      "logo": "fb"
     },
     {
       "Name": "TRUE VDO",
       "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "fbcdn.net",
+      "SNI": "",
       "dnsKey": "",
       "CustomProxy": "support.zoom.us",
       "CustomProxyPort": "2095",
       "pInfo": "โปร zoom",
       "isSslPayRp": false,
       "SlowDns": false,
-      "isSSL": true,
+      "isSSL": false,
       "isCustom": false,
-      "isCf": false
+      "isCf": false,
+      "logo": "zoom"
     },
     {
-      "Name": "SSL SETUP",
+      "Name": "Dtac TV",
       "Payload": "",
       "SNI": "example.com",
       "dnsKey": "",
@@ -120,8 +124,25 @@
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
-      "isCf": false
+      "isCf": false,
+      "logo": "dtec"
+    },
+    {
+      "Name": "Dtac DNS",
+      "Payload": "",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "",
+      "CustomProxyPort": "",
+      "pInfo": "ต้องมีกันรั่ว",
+      "isSslPayRp": false,
+      "SlowDns": true,
+      "isSSL": false,
+      "isCustom": false,
+      "isCf": false,
+      "logo": "dtac"
     }
+
 
   ]
 }
