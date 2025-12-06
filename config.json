@@ -1,5 +1,5 @@
 {
-  "Version": "2.3",
+  "Version": "2.1",
   "ReleaseNotes": "This application is a configmaker for OpenVpn3 build by Harshana Devz (Telegram @Zenze000)...",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -144,5 +144,6 @@
     }
   ]
 }
+
 
 
