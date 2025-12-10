@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/miSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/offlz"
+        android:title="Import (from .JSON)"/>
+	<item
+        android:id="@+id/clipimport"
+        android:title="Import (from Clipboard)"/>
+</menu>

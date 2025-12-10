@@ -1,0 +1,113 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:iconSpaceReserved="true"
+	android:key="screenMain">
+	<androidx.preference.PreferenceCategory
+		app:iconSpaceReserved="true"
+		android:title="@string/category_forward_udp">
+
+		<androidx.preference.CheckBoxPreference
+			android:key="udpForward"
+			android:summary="@string/summary_forward_udp"
+			android:title="@string/title_forward_udp" />
+
+		<com.zennetvpn.ShanDevzProject.view.SummaryEditTextPreference
+            android:key="udpResolver"
+            android:title="@string/title_resolver_udp"
+            android:summary="@string/summary_resolver_udp"
+            android:dialogMessage=""
+			android:singleLine="true" />
+
+	</androidx.preference.PreferenceCategory>
+	
+	
+	<androidx.preference.PreferenceCategory
+		app:iconSpaceReserved="true"
+		android:title="@string/category_forward_dns">
+		
+		<androidx.preference.CheckBoxPreference
+			android:key="dnsForward"
+			android:summary="@string/summary_forward_dns"
+			android:title="@string/title_forward_dns" />
+		
+		<com.zennetvpn.ShanDevzProject.view.SummaryEditTextPreference
+            android:key="dnsResolver"
+            android:title="@string/title_dns_primary"
+            android:summary="Enter Dns IP\n\n\nDns If You Encounter No Browse:\n1.0.0.1\n1.0.0.2\n9.9.9.9\n0.0.0.0\n1.1.1.1\n208.67.222.222"
+			android:singleLine="true" />
+		
+	</androidx.preference.PreferenceCategory>
+	
+	
+	<androidx.preference.PreferenceCategory
+		app:iconSpaceReserved="true"
+		android:title="@string/category_settings_adicionais">
+		
+		<androidx.preference.ListPreference
+        	android:key="modeNight"
+			android:defaultValue="off"
+        	android:entries="@array/pref_modoNoturno_option_labels"
+        	android:entryValues="@array/pref_modoNoturno_option_values"
+        	android:title="@string/title_mode_night"
+            android:enabled="false"
+		/>
+		
+		<com.zennetvpn.ShanDevzProject.view.SummaryEditTextPreference
+            android:key="pingerSSH"
+            android:title="@string/title_ping_time"
+			android:maxLength="3"
+            android:summary="@string/no_value"
+			android:singleLine="true"
+		/>
+		
+		<androidx.preference.CheckBoxPreference
+			android:key="autoClearLogs"
+			android:summary="@string/summary_auto_clear_log"
+			android:title="@string/title_auto_clear_log"
+		/>
+
+		<androidx.preference.CheckBoxPreference
+			android:key="hideLog"
+			android:summary="Enabled already"
+			android:title="@string/title_hide_log"
+            android:enabled="false"
+		/>
+		
+	</androidx.preference.PreferenceCategory>
+	
+	
+	<androidx.preference.PreferenceCategory
+		app:iconSpaceReserved="true"
+		android:title="@string/category_user_interface">
+	
+		<androidx.preference.ListPreference
+        	android:key="idioma"
+			android:defaultValue="default"
+        	android:entries="@array/pref_idioma_option_labels"
+        	android:entryValues="@array/pref_idioma_option_values"
+        	android:title="@string/title_language"
+		/>
+		
+	</androidx.preference.PreferenceCategory>
+    
+    <androidx.preference.PreferenceCategory
+		app:iconSpaceReserved="true"
+        android:title="Data Compression">
+
+        <androidx.preference.CheckBoxPreference
+            android:key="data_compression"
+            android:title="Data Compression"
+            android:summary="Compresses and speed up data transfer for files/data that can be compressed. NOT recommended for low memory device."
+            android:defaultValue="true"/>
+
+    </androidx.preference.PreferenceCategory>
+    
+	<androidx.preference.Preference
+    	android:key="screenAdvancedSettings"
+		app:fragment="com.ayothayavpn.ShanDevzProject.preference.SettingsAdvancedPreference"
+        android:title="@string/category_advanced_settings"
+	/>
+	
+	
+</androidx.preference.PreferenceScreen>
