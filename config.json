@@ -141,7 +141,7 @@
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "fbcdn.net",
+      "pInfo": "Use Ssl",
       "isSslPayRp": false,
       "SlowDns": true,
       "isSSL": false,
@@ -197,5 +197,6 @@
 
   ]
 }
+
 
 
