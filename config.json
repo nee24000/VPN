@@ -51,7 +51,7 @@
       "SlowDnshost": "ns.ws.misterpnut.uk",
       "SlowDnskey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
       "sInfo": "SSH | SSL | SLOWDNS",
-      "OnlineAPI": "ws.misterpnut.uk:82/server/online_app.json"
+      "OnlineAPI": "ns.ws.misterpnut.uk:82/server/online_app.json"
     }
   ],
   "Networks": [
@@ -197,4 +197,5 @@
 
   ]
 }
+
 
