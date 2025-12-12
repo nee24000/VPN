@@ -1,5 +1,5 @@
 {
-  "Version": "1.6",
+  "Version": "1.7",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -43,13 +43,13 @@
       "ServerIP": "",
       "ServerPort": "143",
       "SSLPort": "443",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "ns.ws.misterpnut.uk",
+      "ProxyPort": "80",
       "ServerUser": "ssh-user",
       "ServerPass": "prekudr@5ri_-0pra?w6#!b#3wu4#2!friSubr5swUb0as1ax2&1fihibrLMl$uh",
       "CloudfrontIP": "",
       "SlowDnshost": "ns.ws.misterpnut.uk",
-      "SlowDnskey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21",
+      "SlowDnskey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
       "sInfo": "SSH | SSL | SLOWDNS",
       "OnlineAPI": "www.opensignal.com.cdn.cloudflare.net.wc.ws.misterpnut.uk:82/server/online_app.json"
     }
@@ -197,6 +197,7 @@
 
   ]
 }
+
 
 
 
