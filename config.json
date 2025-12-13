@@ -1,5 +1,5 @@
 {
-  "Version": "1.7",
+  "Version": "1.8",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -40,7 +40,7 @@
     {
       "Name": "Thailand 02",
       "FLAG": "th",
-      "ServerIP": "",
+      "ServerIP": "www.opensignal.com.cdn.cloudflare.net.wc.ws.misterpnut.uk",
       "ServerPort": "143",
       "SSLPort": "443",
       "ProxyIP": "ns.ws.misterpnut.uk",
@@ -197,6 +197,7 @@
 
   ]
 }
+
 
 
 
