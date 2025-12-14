@@ -1,5 +1,5 @@
 {
-  "Version": "2.4",
+  "Version": "2.5",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -103,19 +103,19 @@
 
     },
     {
-      "Name": "TRUE VDO",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "TRUE กันรั่ว",
+      "Payload": "GET / HTTP/1.1\r\nHost: [host]\r\nUpgrade: websocket\r\n\r\n",
       "SNI": "",
       "dnsKey": "",
-      "CustomProxy": "support.zoom.us",
-      "CustomProxyPort": "2095",
-      "pInfo": "Pro zoom",
+      "CustomProxy": "www.speedtest.net",
+      "CustomProxyPort": "80",
+      "pInfo": "ควรโปรทรูกันรั่ว",
       "isSslPayRp": false,
-      "SlowDns": false,
+      "SlowDns": true,
       "isSSL": false,
-      "isCustom": false,
+      "isCustom": true,
       "isCf": false,
-      "logo": "zoom"
+      "logo": "true"
 
     },
     {
@@ -135,13 +135,13 @@
 
     },
     {
-      "Name": "Dtac DNS",
+      "Name": "Dtac DNS1",
       "Payload": "",
       "SNI": "",
       "dnsKey": "",
       "CustomProxy": "124.40.228.1",
       "CustomProxyPort": "80",
-      "pInfo": "SlowDNS",
+      "pInfo": "ควรมีโปรดีแทคกันรั่ว",
       "SlowDns": true,
       "isSslPayRp": false,
       "isSSL": false,
@@ -150,19 +150,19 @@
       "logo": "dtac"
     },
     {
-      "Name": "Onlyfan",
+      "Name": "Dtac DNS2",
       "Payload": "",
-      "SNI": "example.com",
+      "SNI": "",
       "dnsKey": "",
-      "CustomProxy": "",
-      "CustomProxyPort": "",
-      "pInfo": "Use Ssl",
+      "CustomProxy": "124.40.229.1",
+      "CustomProxyPort": "80",
+      "pInfo": "ควรมีโปรดีแทคกันรั่ว",
+      "SlowDns": true,
       "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": true,
-      "isCustom": false,
+      "isSSL": false,
+      "isCustom": true,
       "isCf": false,
-      "logo": "onlyfan"
+      "logo": "dtac"
     },
     {
       "Name": "Tiktok",
@@ -180,7 +180,7 @@
       "logo": "tiktok"
     },
     {
-      "Name": "Pornhub",
+      "Name": "Onlyfan",
       "Payload": "",
       "SNI": "example.com",
       "dnsKey": "",
@@ -192,11 +192,12 @@
       "isSSL": true,
       "isCustom": false,
       "isCf": false,
-      "logo": "pornhub"
+      "logo": "onlyfan"
     }
 
   ]
 }
+
 
 
 
