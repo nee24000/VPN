@@ -1,5 +1,5 @@
 {
-  "Version": "2.1",
+  "Version": "2.2",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -139,11 +139,11 @@
       "Payload": "",
       "SNI": "",
       "dnsKey": "",
-      "CustomProxy": "124.40.228.1",
+      "CustomProxy": "",
       "CustomProxyPort": "80",
       "pInfo": "Use Ssl",
       "isSslPayRp": false,
-      "SlowDns": false,
+      "SlowDns": 124.40.228.1,
       "isSSL": false,
       "isCustom": true,
       "isCf": false,
@@ -197,6 +197,7 @@
 
   ]
 }
+
 
 
 
