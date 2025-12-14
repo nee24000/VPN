@@ -1,5 +1,5 @@
 {
-  "Version": "2.5",
+  "Version": "2.6",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -65,19 +65,19 @@
       "pInfo": "Viber trick",
       "isSslPayRp": false,
       "SlowDns": false,
-      "isSSL": true,
+      "isSSL": false,
       "isCustom": true,
       "isCf": false,
       "logo": "true"
     },
     {
-      "Name": "AIS",
+      "Name": "Ais-Play และ กันรั่ว",
       "Payload": "",
       "SNI": "speedtest.net",
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "PromoNet",
+      "pInfo": "ต้องมีโปร ais play + กันรั่ว",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": true,
@@ -109,9 +109,25 @@
       "dnsKey": "",
       "CustomProxy": "www.speedtest.net",
       "CustomProxyPort": "80",
-      "pInfo": "ควรโปรทรูกันรั่ว",
+      "pInfo": "ควรมีโปรทรูกันรั่ว",
       "isSslPayRp": false,
       "SlowDns": true,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "true"
+
+    },
+    {
+      "Name": "TRUE ID 4M",
+      "Payload": "POST / HTTP/1.1[crlf]Host: creators.trueid.net[crlf]User-Agent: [ua][crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "creators.trueid.net",
+      "CustomProxyPort": "80",
+      "pInfo": "ต้องมีโปร ทรูไอดี",
+      "isSslPayRp": false,
+      "SlowDns": false,
       "isSSL": false,
       "isCustom": true,
       "isCf": false,
@@ -133,6 +149,21 @@
       "isCf": false,
       "logo": "twitter"
 
+    },
+    {
+      "Name": "Dtac ID",
+      "Payload": "GET / HTTP/1.1\r\nHost: creators.trueid.net\r\n\r\nCF-RAY / HTTP/1.1\r\nHost: [host]\r\nUpgrade: [ua]\r\n\r\n",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "creators.trueid.net",
+      "CustomProxyPort": "80",
+      "pInfo": "ต้องมีโปร เน็ตดูทรูไอดี",
+      "SlowDns": false,
+      "isSslPayRp": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
     },
     {
       "Name": "Dtac DNS1",
@@ -197,6 +228,7 @@
 
   ]
 }
+
 
 
 
