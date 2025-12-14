@@ -1,5 +1,5 @@
 {
-  "Version": "2.3",
+  "Version": "2.4",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -138,7 +138,7 @@
       "Name": "Dtac DNS",
       "Payload": "",
       "SNI": "",
-      "dnsKey": "dtac",
+      "dnsKey": "",
       "CustomProxy": "124.40.228.1",
       "CustomProxyPort": "80",
       "pInfo": "SlowDNS",
@@ -197,6 +197,7 @@
 
   ]
 }
+
 
 
 
