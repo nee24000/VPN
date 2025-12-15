@@ -1,5 +1,5 @@
 {
-  "Version": "2.8",
+  "Version": "2.9",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -8,18 +8,18 @@
     {
       "Name": "SG - Premium SSH",
       "FLAG": "sg",
-      "ServerIP": "sgpd6.aswgroup.uk",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "ProxyIP": "sgpd6.aswgroup.uk",
-      "ProxyPort": "8080",
-      "ServerUser": "pdk369",
-      "ServerPass": "526bac803bbb09f19a36ea3e424c62c00f72e0e33308ac3e18dd135809d3b71",
+      "ServerIP": "sgctb7.asw315h.uk",
+      "ServerPort": "143",
+      "SSLPort": "8080",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "ServerUser": "zc",
+      "ServerPass": "v521v",
       "CloudfrontIP": "",
-      "SlowDnshost": "slow-sgpd6.aswgroup.uk",
+      "SlowDnshost": "sgctb7.asw315h.uk",
       "SlowDnskey": "526bac803bbb09f19a36ea3e424c62c00f72e0e33308ac3e18dd135809d3b71",
       "sInfo": "Singapore SSH Premium Server",
-      "OnlineAPI": "sgpd6.aswgroup.uk:82/server/online_app.json"
+      "OnlineAPI": "sgctb7.asw315h.uk:82/server/online_app.json"
     },
     {
       "Name": "Thailand 01",
@@ -196,6 +196,7 @@
 
   ]
 }
+
 
 
 
