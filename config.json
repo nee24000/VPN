@@ -1,5 +1,5 @@
 {
-  "Version": "2.6",
+  "Version": "2.7",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -109,7 +109,7 @@
       "dnsKey": "",
       "CustomProxy": "www.speedtest.net",
       "CustomProxyPort": "80",
-      "pInfo": "ควรมีโปรทรูกันรั่ว",
+      "pInfo": "โปรทรูกันรั่ว สมัคร *900*8131# โทรออก",
       "isSslPayRp": false,
       "SlowDns": true,
       "isSSL": false,
@@ -228,6 +228,7 @@
 
   ]
 }
+
 
 
 
