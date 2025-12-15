@@ -1,5 +1,5 @@
 {
-  "Version": "2.7",
+  "Version": "2.8",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-01-20 13:55:00",
@@ -62,7 +62,7 @@
       "dnsKey": "",
       "CustomProxy": "help.viber.com",
       "CustomProxyPort": "80",
-      "pInfo": "Viber trick",
+      "pInfo": "โปรViber สมัคร *900*7432# 📞",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": false,
@@ -71,45 +71,13 @@
       "logo": "true"
     },
     {
-      "Name": "Ais-Play และ กันรั่ว",
-      "Payload": "",
-      "SNI": "speedtest.net",
-      "dnsKey": "",
-      "CustomProxy": "",
-      "CustomProxyPort": "",
-      "pInfo": "ต้องมีโปร ais play + กันรั่ว",
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": true,
-      "isCustom": false,
-      "isCf": false,
-      "logo": "ais"
-
-    },
-    {
-      "Name": "TRUE FB Gaming",
-      "Payload": "",
-      "SNI": "fbcdn.net",
-      "dnsKey": "",
-      "CustomProxy": "",
-      "CustomProxyPort": "",
-      "pInfo": "TRUE FB Gaming",
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": true,
-      "isCustom": false,
-      "isCf": false,
-      "logo": "facebook"
-
-    },
-    {
       "Name": "TRUE กันรั่ว",
       "Payload": "GET / HTTP/1.1\r\nHost: [host]\r\nUpgrade: websocket\r\n\r\n",
       "SNI": "",
       "dnsKey": "",
       "CustomProxy": "www.speedtest.net",
       "CustomProxyPort": "80",
-      "pInfo": "โปรทรูกันรั่ว สมัคร *900*8131# โทรออก",
+      "pInfo": "โปรทรูกันรั่ว สมัคร *900*8131# 📞",
       "isSslPayRp": false,
       "SlowDns": true,
       "isSSL": false,
@@ -135,19 +103,19 @@
 
     },
     {
-      "Name": "Twitter",
+      "Name": "Ais-Play และ กันรั่ว",
       "Payload": "",
-      "SNI": "example.com",
+      "SNI": "speedtest.net",
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "Use Ssl",
+      "pInfo": "โปรais กันรั่ว สมัคร *777*7381*008441# 📞",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
       "isCf": false,
-      "logo": "twitter"
+      "logo": "ais"
 
     },
     {
@@ -172,7 +140,7 @@
       "dnsKey": "",
       "CustomProxy": "124.40.228.1",
       "CustomProxyPort": "80",
-      "pInfo": "ควรมีโปรดีแทคกันรั่ว",
+      "pInfo": "โปรดีแทคกันรั่ว สมัคร *103*99# 📞",
       "SlowDns": true,
       "isSslPayRp": false,
       "isSSL": false,
@@ -187,7 +155,7 @@
       "dnsKey": "",
       "CustomProxy": "124.40.229.1",
       "CustomProxyPort": "80",
-      "pInfo": "ควรมีโปรดีแทคกันรั่ว",
+      "pInfo": "โปรดีแทคกันรั่ว สมัคร *103*99# 📞",
       "SlowDns": true,
       "isSslPayRp": false,
       "isSSL": false,
@@ -196,38 +164,39 @@
       "logo": "dtac"
     },
     {
-      "Name": "Tiktok",
+      "Name": "TRUE FB Gaming",
       "Payload": "",
-      "SNI": "example.com",
+      "SNI": "fbcdn.net",
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "Use Ssl",
+      "pInfo": "TRUE FB Gaming",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
       "isCf": false,
-      "logo": "tiktok"
+      "logo": "facebook"
     },
     {
-      "Name": "Onlyfan",
+      "Name": "Twitter",
       "Payload": "",
       "SNI": "example.com",
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "Use Ssl",
+      "pInfo": "โปรTwitter สมัคร *900*3507# 📞",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": true,
       "isCustom": false,
       "isCf": false,
-      "logo": "onlyfan"
+      "logo": "twitter"
     }
 
   ]
 }
+
 
 
 
