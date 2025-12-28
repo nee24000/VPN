@@ -6,22 +6,6 @@
   "AnnounceMent": "add new payload last",
   "Servers": [
     {
-      "Name": "SG - Premium SSH",
-      "FLAG": "sg",
-      "ServerIP": "sgctb7.asw315h.uk",
-      "ServerPort": "143",
-      "SSLPort": "8080",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "ServerUser": "zc",
-      "ServerPass": "v521v",
-      "CloudfrontIP": "",
-      "SlowDnshost": "sgctb7.asw315h.uk",
-      "SlowDnskey": "526bac803bbb09f19a36ea3e424c62c00f72e0e33308ac3e18dd135809d3b71",
-      "sInfo": "Singapore SSH Premium Server",
-      "OnlineAPI": "sgctb7.asw315h.uk:82/server/online_app.json"
-    },
-    {
       "Name": "Thailand-02",
       "FLAG": "th",
       "ServerIP": "ws.misterpnut.uk",
@@ -176,5 +160,6 @@
     }
   ]
 }
+
 
 
