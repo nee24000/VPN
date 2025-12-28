@@ -1,9 +1,9 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
-  "Updatetime": "2025-01-20 13:55:00",
-  "AnnounceMent": "This application is a configmaker for Updatet",
+  "Updatetime": "2025-12-28 15:17:46",
+  "AnnounceMent": "add new payload last",
   "Servers": [
     {
       "Name": "SG - Premium SSH",
@@ -22,23 +22,7 @@
       "OnlineAPI": "sgctb7.asw315h.uk:82/server/online_app.json"
     },
     {
-      "Name": "Thailand 01",
-      "FLAG": "th",
-      "ServerIP": "th-90.twins-app.uk",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "ProxyIP": "th-90.twins-app.uk",
-      "ProxyPort": "80",
-      "ServerUser": "nuwaalnuwa",
-      "ServerPass": "nuwaalnuwa",
-      "CloudfrontIP": "",
-      "SlowDnshost": "dns.au5dbc.dckx.fun",
-      "SlowDnskey": "99242c9fe50d6e08e95bbf30e4bd11e648e283ba8d05610bb64e3176adfc0555",
-      "sInfo": "SSH | SSL | SLOWDNS",
-      "OnlineAPI": "th-90.twins-app.uk:82/server/online_app.json"
-    },
-    {
-      "Name": "Thailand 02",
+      "Name": "Thailand-02",
       "FLAG": "th",
       "ServerIP": "ws.misterpnut.uk",
       "ServerPort": "143",
@@ -56,121 +40,13 @@
   ],
   "Networks": [
     {
-      "Name": "TRUE Viber",
-      "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: help.viber.com[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]User-Agent: [ua][crlf]X-Online-Host: help.viber.com[crlf][crlf]",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "help.viber.com",
-      "CustomProxyPort": "80",
-      "pInfo": "โปรViber สมัคร *900*7432# 📞",
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "true"
-    },
-    {
-      "Name": "TRUE กันรั่ว",
-      "Payload": "GET / HTTP/1.1\r\nHost: [host]\r\nUpgrade: websocket\r\n\r\n",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "www.speedtest.net",
-      "CustomProxyPort": "80",
-      "pInfo": "โปรทรูกันรั่ว สมัคร *900*8131# 📞",
-      "isSslPayRp": false,
-      "SlowDns": true,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "true"
-
-    },
-    {
-      "Name": "TRUE ID 4M",
-      "Payload": "POST / HTTP/1.1[crlf]Host: creators.trueid.net[crlf]User-Agent: [ua][crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "creators.trueid.net",
-      "CustomProxyPort": "80",
-      "pInfo": "ต้องมีโปร ทรูไอดี",
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "true"
-
-    },
-    {
-      "Name": "Ais-Play และ กันรั่ว",
-      "Payload": "",
-      "SNI": "speedtest.net",
-      "dnsKey": "",
-      "CustomProxy": "",
-      "CustomProxyPort": "",
-      "pInfo": "โปรais กันรั่ว สมัคร *777*7381*008441# 📞",
-      "isSslPayRp": false,
-      "SlowDns": false,
-      "isSSL": true,
-      "isCustom": false,
-      "isCf": false,
-      "logo": "ais"
-
-    },
-    {
-      "Name": "Dtac ID",
-      "Payload": "GET / HTTP/1.1\r\nHost: creators.trueid.net\r\n\r\nCF-RAY / HTTP/1.1\r\nHost: [host]\r\nUpgrade: [ua]\r\n\r\n",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "creators.trueid.net",
-      "CustomProxyPort": "80",
-      "pInfo": "ต้องมีโปร เน็ตดูทรูไอดี",
-      "SlowDns": false,
-      "isSslPayRp": false,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "dtac"
-    },
-    {
-      "Name": "Dtac DNS1",
-      "Payload": "",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "124.40.228.1",
-      "CustomProxyPort": "80",
-      "pInfo": "โปรดีแทคกันรั่ว สมัคร *103*99# 📞",
-      "SlowDns": true,
-      "isSslPayRp": false,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "dtac"
-    },
-    {
-      "Name": "Dtac DNS2",
-      "Payload": "",
-      "SNI": "",
-      "dnsKey": "",
-      "CustomProxy": "124.40.229.1",
-      "CustomProxyPort": "80",
-      "pInfo": "โปรดีแทคกันรั่ว สมัคร *103*99# 📞",
-      "SlowDns": true,
-      "isSslPayRp": false,
-      "isSSL": false,
-      "isCustom": true,
-      "isCf": false,
-      "logo": "dtac"
-    },
-    {
-      "Name": "TRUE FB Gaming",
+      "Name": "TRUE-FACEBOOK-GAMEING",
       "Payload": "",
       "SNI": "fbcdn.net",
       "dnsKey": "",
       "CustomProxy": "",
       "CustomProxyPort": "",
-      "pInfo": "TRUE FB Gaming",
+      "pInfo": "FACEBOOK-GAMEING",
       "isSslPayRp": false,
       "SlowDns": false,
       "isSSL": true,
@@ -179,6 +55,21 @@
       "logo": "facebook"
     },
     {
+      "Name": "TRUE-INSTAGRAM",
+      "Payload": "POST / HTTP/1.1[crlf]Host: mobile.twitter.com[crlf]User-Agent: [ua][crlf][crlf][split][cr]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "",
+      "CustomProxyPort": "",
+      "pInfo": "ใช้งานทั่วไป",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": true,
+      "isCustom": false,
+      "isCf": false,
+      "logo": "Instagram"
+    },
+	{
       "Name": "Twitter",
       "Payload": "",
       "SNI": "example.com",
@@ -192,38 +83,96 @@
       "isCustom": false,
       "isCf": false,
       "logo": "twitter"
+    },
+	{
+      "Name": "TRUE-ID",
+      "Payload": "POST / HTTP/1.1[crlf]Host: creators.trueid.net[crlf]User-Agent: [ua][crlf][crlf][split][cr]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "fbcdn.net",
+      "dnsKey": "",
+      "CustomProxy": "104.18.23.60",
+      "CustomProxyPort": "80",
+      "pInfo": "ใช้งานทั่วไป",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "true"
+    },
+    {
+      "Name": "TRUE-VDO",
+      "Payload": "GET / HTTP/1.1\\r\\nHost: [host]\\r\\nUpgrade: websocket\\r\\n\\r\\n",
+      "SNI": "mobile.x.com",
+      "dnsKey": "",
+      "CustomProxy": "104.18.28.141",
+      "CustomProxyPort": "80",
+      "pInfo": "ทรู VDO",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "true"
+    },
+    {
+      "Name": "TRUE-VIBER",
+      "Payload": "GET / HTTP/1.1\\r\\nHost: lp.viber.com\\r\\n\\r\\nCF-RAY / HTTP/1.1\\r\\nHost: [host]\\r\\nUpgrade: [ua]\\r\\n\\r\\n",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "lp.viber.com",
+      "CustomProxyPort": "80",
+      "pInfo": "ทรู ไวเบอร์",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "true"
+    },
+    {
+      "Name": "DTAC-GAMING",
+      "Payload": "CONNECT / HTTP/1.1\\r\\nHost: dl.dir.freefiremobile.com\\r\\n\\r\\nCF-RAY / HTTP/1.1\\r\\nHost: [host]\\r\\nUpgrade: [ua]\\r\\n\\r\\n",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "104.16.156.36",
+      "CustomProxyPort": "80",
+      "pInfo": "ดีแทคเกมมิ่ง",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
+    },
+	{
+      "Name": "Dtac ID",
+      "Payload": "GET / HTTP/1.1\r\nHost: creators.trueid.net\r\n\r\nCF-RAY / HTTP/1.1\r\nHost: [host]\r\nUpgrade: [ua]\r\n\r\n",
+      "SNI": "",
+      "dnsKey": "",
+      "CustomProxy": "creators.trueid.net",
+      "CustomProxyPort": "80",
+      "pInfo": "ต้องมีโปร Dtac ID",
+      "SlowDns": false,
+      "isSslPayRp": false,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
+    },
+    {
+      "Name": "AIS-PLAY",
+      "Payload": "",
+      "SNI": "speedtest.net",
+      "dnsKey": "",
+      "CustomProxy": "",
+      "CustomProxyPort": "",
+      "pInfo": "โปรais กันรั่ว สมัคร *777*7381*008441# 📞",
+      "isSslPayRp": false,
+      "SlowDns": false,
+      "isSSL": true,
+      "isCustom": false,
+      "isCf": false,
+      "logo": "ais"
     }
-
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
