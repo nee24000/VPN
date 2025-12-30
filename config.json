@@ -1,12 +1,12 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-12-28 15:17:46",
   "AnnounceMent": "add new payload last",
   "Servers": [
     {
-      "Name": "Thailand-02",
+      "Name": "Thailand",
       "FLAG": "th",
       "ServerIP": "ws.misterpnut.uk",
       "ServerPort": "143",
@@ -51,7 +51,7 @@
       "isSSL": true,
       "isCustom": false,
       "isCf": false,
-      "logo": "Instagram"
+      "logo": "ig"
     },
 	{
       "Name": "Twitter",
@@ -160,6 +160,7 @@
     }
   ]
 }
+
 
 
 
