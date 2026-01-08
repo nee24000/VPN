@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-12-28 15:17:46",
@@ -149,7 +149,7 @@
       "SNI": "",
       "dnsKey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
       "CustomProxy": "124.40.228.1",
-      "CustomProxyPort": "53",
+      "CustomProxyPort": "80",
       "pInfo": "DTAC-กันรั่ว",
       "isSslPayRp": false,
       "SlowDns": true,
@@ -205,6 +205,7 @@
     }
   ]
 }
+
 
 
 
