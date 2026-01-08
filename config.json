@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "This application is a configmaker for Updatet",
   "Addtime": true,
   "Updatetime": "2025-12-28 15:17:46",
@@ -19,7 +19,7 @@
       "SlowDnshost": "ns.ws.misterpnut.uk",
       "SlowDnskey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
       "sInfo": "SSH | SSL | SLOWDNS",
-      "OnlineAPI": "www.opensignal.com.cdn.cloudflare.net.wc.ws.misterpnut.uk:82/server/online_app.json"
+      "OnlineAPI": "ws.misterpnut.uk:82/server/online_app.json"
     }
   ],
   "Networks": [
@@ -143,6 +143,51 @@
       "isCf": false,
       "logo": "dtac"
     },
+	  {
+      "Name": "DTAC-DNS1",
+      "Payload": "",
+      "SNI": "",
+      "dnsKey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
+      "CustomProxy": "124.40.228.1",
+      "CustomProxyPort": "53",
+      "pInfo": "DTAC-กันรั่ว",
+      "isSslPayRp": false,
+      "SlowDns": true,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
+    },
+	  {
+      "Name": "DTAC-DNS2",
+      "Payload": "",
+      "SNI": "",
+      "dnsKey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
+      "CustomProxy": "124.40.228.1",
+      "CustomProxyPort": "5300",
+      "pInfo": "DTAC-กันรั่ว",
+      "isSslPayRp": false,
+      "SlowDns": true,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
+    },
+	  {
+      "Name": "DTAC-DNS3",
+      "Payload": "",
+      "SNI": "",
+      "dnsKey": "943cb7aa556f1796d77f273edc73693e096dbd895c4e09bd4f21fd38a9712726",
+      "CustomProxy": "124.40.228.1",
+      "CustomProxyPort": "5353",
+      "pInfo": "DTAC-กันรั่ว",
+      "isSslPayRp": false,
+      "SlowDns": true,
+      "isSSL": false,
+      "isCustom": true,
+      "isCf": false,
+      "logo": "dtac"
+    },
     {
       "Name": "AIS-PLAY",
       "Payload": "",
@@ -160,6 +205,7 @@
     }
   ]
 }
+
 
 
 
